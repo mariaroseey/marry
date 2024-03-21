@@ -15,12 +15,12 @@ let sectionOne = document.getElementById("sectionOne")
 
 let sectionTwoData ={
     sect2 : "PROJECT COMPLETED",
-    par1 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, mollitia aliquam asperiores excepturi consectetur fugit beatae ut id magnam impedit nesciunt illum facilis laborum explicabo est debitis. Repellendus, laudantium minus.",
-    par2 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, mollitia aliquam asperiores excepturi consectetur fugit beatae ut id magnam impedit nesciunt illum facilis laborum explicabo est debitis. Repellendus, laudantium minus.",
-    par3 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, mollitia aliquam asperiores excepturi consectetur fugit beatae ut id magnam impedit nesciunt illum facilis laborum explicabo est debitis. Repellendus, laudantium minus.",
-    img1    : "download.jpg",
-    img2    : "download.jpg",
-    img3    : "download.jpg",    
+    par1 : "This is my painting in our art appreciation class. This artwork have a greatest impact in life that's why I choose to paint it.",
+    par2 : "This is a project in our Philippine History, we have an exhibit that time.",
+    par3 : "This is during our final defense in Technopreneurship.",
+    img1    : "ha.jpg",
+    img2    : "he.jpg",
+    img3    : "defense.jpg",    
     buttonTwo : "Learn More",
     buttonThree : "Learn More",
     buttonFour : "Learn More" 
