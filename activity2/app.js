@@ -15,15 +15,15 @@ let sectionOne = document.getElementById("sectionOne")
 
 let sectionTwoData ={
     sect2 : "PROJECT COMPLETED",
-    par1 : "This is my painting in our art appreciation class. This artwork have a greatest impact in life that's why I choose to paint it.",
+    par1 : "This is my painting in our art appreciation class. This artwork have an impact in life that's why I choose to paint it.",
     par2 : "This is a project in our Philippine History, we have an exhibit that time.",
     par3 : "This is during our final defense in Technopreneurship.",
     img1    : "ha.jpg",
     img2    : "he.jpg",
     img3    : "defense.jpg",    
-    buttonTwo : "Learn More",
-    buttonThree : "Learn More",
-    buttonFour : "Learn More" 
+    buttonTwo : "Learn More!",
+    buttonThree : "Learn More!",
+    buttonFour : "Learn More!" 
 
 }
 
