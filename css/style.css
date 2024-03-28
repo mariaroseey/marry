@@ -1,45 +1,42 @@
-body {
+*{
     margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      color: #ebc4c4;
-      background-image: url('/album/bg.jpg');
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+      color: #fdfbfb;
+      background:#0f1228;
   }
+
+  .home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+  }
+ .image {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+ }
+ .image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+ }
+ h1{
+    font-size: 80px;
+}
   
-  .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: #fff; /* container text color */
-      width: 50%;
-      margin-left: 25%;
-      margin-top: 5%;
-      margin-bottom: 20%;
-  }
   
-  img {
-      border: 5px solid #333; /* Darker border color */
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-      animation: pulseAnimation 2s infinite alternate;
-  }
-  
-  @keyframes pulseAnimation {
-      0% {
-          transform: scale(1);
-      }
-      100% {
-          transform: scale(1.05);
-      }
-  }
-  
-  img:hover {
-      border-color: #FFD700; /* Yellow border on hover */
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
 .text {
     text-align: center;
 }
@@ -48,21 +45,34 @@ span {
     font-size: 24px;
     color: #FFA500; /* span text color */
 }
-
-.header {
-    background: radial-gradient(circle, #0f1228, #000); /* Galaxy background */
-    text-align: center;
-    padding: 20px;
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: radial-gradient(circle, #0f1228, #000);
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
-.header li {
-    list-style-type: none;
-    margin: 20px;
-}
-
-.header li a {
+.logo{
+    font-size: 25px;
+    color: #fffefe;
     text-decoration: none;
-    color: #fff; /* link color */
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: .3s;
+}
+.navbar a:hover{
+    background-color: #333;
+    padding: 20px
 }
