@@ -2,24 +2,27 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #E8E8EB; 
+    background-image: url('/album/bg.jpg'); 
 }
-
 .header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: radial-gradient(circle, #0f1228, #000); /* Galaxy background */
     text-align: center;
+    padding: 20px;
+    display: flex;
+    
 }
 
 .header li {
+    list-style-type: none;
+    margin: 20px;
+
     display: inline;
-    margin: 0 10px;
 }
 
 .header li a {
-    color: #fff;
     text-decoration: none;
+    color: #fff; /* link color */
+    
 }
 
 .container {
@@ -27,8 +30,8 @@ body {
     margin-top: 50px;
 }
 
-h5 {
-    color: #333;
+h3 {
+    color: #fdfcfc;
 }
 
 span {

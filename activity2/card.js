@@ -11,7 +11,7 @@ const sectTwoFunc = (sect2, img1, img2, img3, par1, par2, par3,  buttonTwo, butt
                         </div>
                         <div class="box">
                             <img src="${img2}"></img>
-                            <p>${par2}</p> <br>
+                            <p>${par2}</p>
                             <button>${buttonThree}</button>
                         </div>
                         <div class="box">

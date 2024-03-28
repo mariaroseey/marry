@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 1rem auto;
+}
+
+.header {
+    background: radial-gradient(circle, #0f1228, #000); /* Galaxy background */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.header li {
+    list-style-type: none;
+    margin: 20px;
+
+    display: inline;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #fff; /* link color */
+    
+}
+
+body {
+    background-image: url('/album/bg.jpg');
+    font-family: Arial, sans-serif;
+}
+
+img {
+    border: 5px solid #333; /* Darker border color */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: pulseAnimation 2s infinite alternate;
+}
+
+@keyframes pulseAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+img:hover {
+    border-color: #FFD700; /* Yellow border on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 1em; /* Adjusted margin value */
+    margin-bottom: 1rem;
+}
+
+.leftClass, .rightClass {
+    width: 50%;
+    padding: 1rem;
+    margin-top: 150px;
+    color: #fff;
+}
+
+.rightClass {
+    border-left: 1px solid #333; /* Added border between left and right sections */
+}
+
+button {
+    margin-top: 10px;
+    background: rgb(124, 47, 118);
+    color: white;
+    padding: 8px 16px; /* Increased padding for the button */
+    border: none;
+    border-radius: 4px; /* Added border radius for button */
+    cursor: pointer; /* Cursor pointer on hover */
+    transition: background-color 0.3s ease-in-out; /* Smooth background color transition on hover */
+}
+
+button:hover {
+    background-color: #7C2F76; /* Darker background color on hover */
+}

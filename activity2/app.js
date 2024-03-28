@@ -3,8 +3,8 @@ import {image} from "./img.js"
 import { sectTwoFunc} from "./card.js"
 
 let sectionOneData ={
-    sect1 : "Mari",
-    sect1par : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laudantium voluptates consectetur doloremque cupiditate perspiciatis porro quibusdam id nobis obcaecati earum dicta Repellendus recusandae quasi nisi eum vitae nesciunt corrupti",
+    sect1 : "About Me",
+    sect1par : "Hi! I'm Marry Rose Rulida.A 2nd year colleges student taking up Bachelor of Science in Information Technology at Gingoog City Colleges.I'm 19 yrs old and currently living in Brgy. Duka Medina Misamis Oriental. I'm  a curious and optimistic person who loves learning and solving problems. I enjoy working with others and believe in being kind and honest in all interactions.",
     imgTop : "mari.jpg",  
     buttonOne :"Contact Me",   
 }
@@ -14,10 +14,10 @@ let sectionOne = document.getElementById("sectionOne")
 
 
 let sectionTwoData ={
-    sect2 : "PROJECT COMPLETED",
-    par1 : "This is my painting in our art appreciation class. This artwork have an impact in life that's why I choose to paint it.",
-    par2 : "This is a project in our Philippine History, we have an exhibit that time.",
-    par3 : "This is during our final defense in Technopreneurship.",
+    sect2 : "ACHIEVEMENTS",
+    par1 : "This artwork holds significance in my life, which is why I decided to paint it during our art appreciation class.",
+    par2 : "This project is part of our study in Philippine History, where we organized an exhibit at that time.",
+    par3 : "This occurred during our final presentation for Technopreneurship.",
     img1    : "ha.jpg",
     img2    : "he.jpg",
     img3    : "defense.jpg",    
