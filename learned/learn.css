@@ -44,17 +44,30 @@ body {
 
 .container {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 h1 {
     color: #fdfcfc;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 span {
     color: #FFA500; /* Orange color for the span */
+}
+.class img{
+    height: 30%;
+    width: 30%;
+    
+
+}
+.think{
+    margin-left: 40%;
+}
+.think img{
+    width: 35%;
+    height: 35%;
 }
 
 .box {

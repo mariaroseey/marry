@@ -6,9 +6,16 @@
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     max-width: 1200px;
     /* margin: 1rem auto;
     margin-top: 40px; */
+}
+.class img{
+    height: 30%;
+    width: 30%;
+    
+
 }
 
 .header{
@@ -48,7 +55,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-img {
+.rightClass img {
     border: 5px solid #333; /* Darker border color */
     /* border-radius: 50%; */
     width: 100%;
@@ -94,7 +101,7 @@ p {
 
 button {
     margin-top: 10px;
-    background: rgb(124, 47, 118);
+    background: rgb(161, 117, 158);
     color: white;
     padding: 8px 16px; /* Increased padding for the button */
     border: none;
@@ -104,5 +111,7 @@ button {
 }
 
 button:hover {
-    background-color: #7C2F76; /* Darker background color on hover */
+    background-color: #330d30; /* Darker background color on hover */
 }
+
+

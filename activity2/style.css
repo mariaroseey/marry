@@ -22,7 +22,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(32, 160, 126); /* Darker green on hover */
+    background-color: rgb(8, 49, 38); /* Darker green on hover */
 }
 
 .header{
@@ -86,7 +86,7 @@ img:hover {
 #sectionOne {
     display: flex;
     
-    margin-top: 40px; /* Adjusted margin for centering */
+    margin-top: 100px; /* Adjusted margin for centering */
     margin-bottom: 50px;
     padding: 20px;
     margin-left: 30px;
@@ -100,6 +100,12 @@ img:hover {
     justify-content: center;
     align-items: center;
     margin-left: 23%;
+}
+.class img{
+    height: 30%;
+    width: 30%;
+    
+
 }
 
 .profile {

@@ -58,11 +58,17 @@ span {
     z-index: 100;
 }
 
-.logo{
+/* .logo{
     font-size: 25px;
     color: #fffefe;
     text-decoration: none;
     font-weight: 600;
+} */
+.class img{
+    height: 30%;
+    width: 30%;
+    
+
 }
 .navbar a{
     font-size: 18px ;
@@ -76,3 +82,5 @@ span {
     background-color: #333;
     padding: 20px
 }
+
+
