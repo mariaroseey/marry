@@ -200,11 +200,17 @@ img:hover {
    .sectionOne{
     flex-direction: column;
    }
-
+   .navbar{
+    float: none;
+   }
+    
    
     .navbar a {
         font-size: 14px;
         padding: 10px;
+        float: none;
+        display: block;
+        text-align: left;
     }
     .profile{
        width: 100%;
