@@ -4,7 +4,7 @@ import { sectTwoFunc} from "./card.js"
 
 let sectionOneData ={
     sect1 : "About Me",
-    sect1par : "Hi! I'm Marry Rose Rulida. A 2nd year college student taking up Bachelor of Science in Information Technology at Gingoog City Colleges.I'm 19 yrs old and currently living in Brgy. Duka Medina Misamis Oriental. I'm  a curious and optimistic person who loves learning and solving problems. I enjoy working with others and believe in being kind and honest in all interactions.",
+    sect1par : "Hi! I'm Marry Rose Rulida. A 2nd year college student taking up Bachelor of Science in Information Technology at Gingoog City Colleges. I'm 19 yrs old and currently living in Brgy. Duka Medina Misamis Oriental. I'm always willing to learn and I'm dedicated with my work.",
     imgTop : "m.jpg",  
     buttonOne :"Contact Me",   
 }
