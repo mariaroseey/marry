@@ -25,7 +25,8 @@
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: radial-gradient(circle, #0f1228, #000);
+    background-image: url(/album/bg.jpg);
+    /* background: radial-gradient(circle, #0f1228, #000); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,7 +74,8 @@
   }
   
 body {
-    background:#0f1228;
+    /* background:#0f1228; */
+    background: radial-gradient(circle, #0f1228, #000);
     font-family: Arial, sans-serif;
 }
 
