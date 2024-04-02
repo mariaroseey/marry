@@ -7,7 +7,7 @@
 
 body {
     color: #fdfbfb;
-    /* background: #0f1228; */
+    
     background: radial-gradient(circle, #0f1228, #000);
     
 }
@@ -73,7 +73,7 @@ span {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background-image: url(/album/bg.jpg);
+    background: #0f1228;
     /* background: radial-gradient(circle, #0f1228, #000); */
     display: flex;
     justify-content: space-between;
